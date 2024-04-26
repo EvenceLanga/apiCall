@@ -8,8 +8,8 @@ excel_file_path = "C:\\Users\\Evence Langa\\Downloads\\November MTD.xlsx"
 df = pd.read_excel(excel_file_path)
 
 # AEX API endpoint
-aex_api_base_url = 'api.fno.za.aex.systems'
-aex_api_token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJhZXgtY29yZSIsImlhdCI6MTY5MTA1MDY1NSwidWlkIjoiNTdBNzkxQzEtMkRFQi00NTVELUFCNUQtM0JBOEEzNzI2NjgwIiwiY2xhaW1zIjpbInVzZXJfaWQ6NTdBNzkxQzEtMkRFQi00NTVELUFCNUQtM0JBOEEzNzI2NjgwIiwib3BlcmF0b3JfaWQ6QUVFRjM4QzAtRjFFOS00RTgzLUFENEYtM0UzNUFBQjhERkNGIl19.KfBHYL0Tx2m9YbO5twY6EnscZm7PgziJUstRjR7DgGbWzMxZechCk2w9F43rrKkHECLrpiReYE4ot44-rHHpdw'
+aex_api_base_url = '************'
+aex_api_token = '**********'
 
 # Function to fetch status from API using http.client
 def fetch_status(guid):
